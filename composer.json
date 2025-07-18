@@ -1,0 +1,32 @@
+{
+  "name": "laraxgram/macroable",
+  "description": "The LaraGram Macroable package.",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/laraxgram/core/issues",
+    "source": "https://github.com/laraxgram/core"
+  },
+  "authors": [
+    {
+      "name": "LaraGram",
+      "email": "laraxgram@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaraGram\\Support\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.0.x-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
